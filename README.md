@@ -49,4 +49,3 @@ The R script is structured into modular sections corresponding to the econometri
 * **Language:** R
 * **Key Packages:** `tidyverse`, `estimatr`, `glmnet`, `leaps`, `car`, `lmtest`, `ggplot2`, `corrplot`
 * **Version Control:** Git & GitHub
-* 
