@@ -17,12 +17,12 @@ The R script is structured into modular sections corresponding to the econometri
 
 1. **Package Loading & Data Preparation**
    * Imports essential libraries (`tidyverse`, `estimatr`, `glmnet`, `leaps`, `car`, `lmtest`, `ggplot2`, `corrplot`).
-   * Loads the dataset, checks for missing values/duplicates, and converts categorical and binary variables into factors[cite: 5, 7].
+   * Loads the dataset, checks for missing values/duplicates, and converts categorical and binary variables into factors.
 
 2. **Descriptive & Exploratory Analysis**
    * Computes summary statistics (mean, median, standard deviation).
    * Detects outliers via IQR and generates diagnostic histograms and boxplots.
-   * Generates correlation matrices, heatmaps, and scatter plots to visualize relationships between area and price[cite: 7, 8, 9].
+   * Generates correlation matrices, heatmaps, and scatter plots to visualize relationships between area and price.
 
 3. **OLS Model (Inference) & Diagnostics**
    * Fits a baseline multiple linear regression model.
